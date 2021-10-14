@@ -47,7 +47,7 @@ export default function Home({ initialMenu, initialDate, initialSocial }) {
           </div>
           <div className="md:grid md:grid-cols-3 md:gap-14 py-8">
             <p className="md:text-left text-center text-lg">0763 - 22 72 88</p>
-            <p className="text-center text-lg">Per Albin Hanssons Väg 41, 205 12 Malmö</p>
+            <p className="text-center text-lg">Per Albin Hanssons Väg 41, 214 32 Malmö</p>
             <p className="md:text-right text-center text-lg">info@aplate.se</p>
 
           </div>
