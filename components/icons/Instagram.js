@@ -3,30 +3,27 @@ import * as React from "react";
 function SvgInstagram(props) {
   return (
     <svg
-      width={24}
-      height={24}
       fill="none"
+      height={23}
+      width={23}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       {...props}
     >
-      <path fill="url(#instagram_svg__pattern0)" d="M0 0h24v24H0z" />
-      <defs>
-        <pattern
-          id="instagram_svg__pattern0"
-          patternContentUnits="objectBoundingBox"
-          width={1}
-          height={1}
-        >
-          <use xlinkHref="#instagram_svg__image0" transform="scale(.02941)" />
-        </pattern>
+      <pattern
+        id="instagram_svg__a"
+        height={1}
+        patternContentUnits="objectBoundingBox"
+        width={1}
+      >
         <image
-          id="instagram_svg__image0"
-          width={34}
-          height={34}
-          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAABSUlEQVRYCe1WjRGBMQx9IxjBKEawARswgg2MYAQjMIJN2IB7p6m00h+HnDvNnWuapsnz2qQfcJc5gAOAM4Br0GdhzW0gCCa3fq5gjgUQBMY1N7GYEBuPyk0kqTVe3FAE+i0QtLkezc9cVrJPMPz3PAphwrViPK/Af+eaAFgA2IUuza69B7ACMK1RU6oa2rVsOpof75s8FaW4Wx1U66UNrwJZVoDmOcjWk+ROeq6da4y0WNAxRWe8RGTBGrVjDYi1t8eW3Jnahm8DWesEnwZyAkD2ONZicy15RmrOGnDP0bBqtLBDS8e28iQvvOUgNh20BSShWW1sVVN0laTWGJ0C3ZYPba1PhtI+2qN0OTWAJGcdIz+UrhxdTgNIKL0HufeSLLE3jiZnpsYIe0nur+eRdW3M9ej0xmUdQDSL1AcjgxFW2kfKN6fSfX4D2bMuBL1beskAAAAASUVORK5CYII="
+          height={33}
+          transform="matrix(.0303 0 0 .03067 0 -.006)"
+          width={33}
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAACYUlEQVRYCc2WjU0dMRCEpwRKSAnpgHQQOggdkA6gg9ABKSEdQAfQASWQDgjfiTmNffad33v3pKx08tnenR3vj2WpL98l3Up6lPQm6f2IDzvswQFvWL5Kej7C4QhJcMFfFRiPgJ2qg5+m3FUE/kq6l/RN0kXTYnsRO+zBAS/J/6zNCVEqPEn6UiudOAcP3PRTpCZrAMW9JZ0lEfxOchXsCNmeESAV7iw7BD9Tg39lLZC7PeV3HJA0OCL4cVrwX+QJ5ltCsd1IeohW5pTMWc8ipvjsjNF7+PH6lH6HK5V6RDjJawAYKEcI+cQ4hcgfSVPYP4FZtw3+5wmLa3Jd6RqkN6K/Jmk3RIKTpRGFhROfmJF5Fhz63m+RSbwCvKVM6DIF5NC5rfVZr1uwp3sQiSwuTtoDNSH2MyKLm/FT8SAS2WZbeTYR9OwE+5Z4n3FWniYN7ZfQWctxmqJnJ76kcn/h18o9Elv7NbjnW3bFfjExQoynRgL7lhR+i0lD+7+oiewObreR7shbeJfuwGmmhDdjjwjr7Du62PV0rcM4G0yTRjpYympHj5P+iBuRfeYZAfTWuol9f/MPC2uSvW/jtXHrTknb4nbrhc7kOFmmJoH8z/5aBMDCj/W5XYu7fvQ9QbHRNSbEyJz1rYPgc/GeOOfLyhGsx8XLKt+YFNaeb8zaOXPws4Dnx47DSp5osXNK3cKzLwrJhWIie0cEvCSAn0UBZ22gQMh+SbocLLb5RPFDkWIPTqYA/N5NWjz/UTzX1yXgA4zcBceSG7lDzGMaqVpSxJsxn2uHEMAOe3DmLii8fEz+AV44xGy2H1SFAAAAAElFTkSuQmCC"
         />
-      </defs>
+      </pattern>
+      <path d="M0 0h22.905v22.629H0z" fill="url(#instagram_svg__a)" />
     </svg>
   );
 }

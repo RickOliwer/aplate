@@ -24,8 +24,8 @@ export default function Home({ initialMenu, initialDate, initialSocial }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>APLATE nordic</title>
+        <link rel="icon" href={logo} />
       </Head>
       <main className="md:grid md:grid-cols-9 p-10">
         <div className=" md:col-span-2">
@@ -66,7 +66,7 @@ export async function getServerSideProps(context) {
 
     const menu = await table.select({}).firstPage();
     const date = await dateTable.select({}).firstPage();
-    const social = await socialLinks.select({}).firstPage();
+    const social = await socialLinks.select({ view: "Grid view", }).firstPage();
     
     return {
       props: {
