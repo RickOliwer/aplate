@@ -25,7 +25,6 @@ export default function Home({ initialMenu, initialDate, initialSocial }) {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>APLATE nordic</title>
-        <link rel="icon" href={logo} />
       </Head>
       <main className="md:grid md:grid-cols-9 p-10">
         <div className=" md:col-span-2">
