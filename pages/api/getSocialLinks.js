@@ -1,4 +1,4 @@
-import {socialLinks, minifyRecords} from './utils/SocialAirtable'
+import {socialLinks, minifyRecords} from '../../utils/SocialAirtable'
 export default async (req, res) => {
     try {
 

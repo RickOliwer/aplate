@@ -1,4 +1,4 @@
-import {dateTable, minifyRecords} from './utils/DateAirtable'
+import {dateTable, minifyRecords} from '../../utils/DateAirtable'
 export default async (req, res) => {
     try {
 

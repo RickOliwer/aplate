@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Menu from '../components/Menu';
 import Date from '../components/Date';
-import { minifyRecords, table } from './api/utils/Airtable'
-import { dateTable } from './api/utils/DateAirtable'
-import { socialLinks } from './api/utils/SocialAirtable';
+import { minifyRecords, table } from '../utils/Airtable'
+import { dateTable } from '../utils/DateAirtable'
+import { socialLinks } from '../utils/SocialAirtable';
 import Social from '../components/Social';
 import Image from 'next/image'
 import logo from '../components/images/logo/logo.png'
