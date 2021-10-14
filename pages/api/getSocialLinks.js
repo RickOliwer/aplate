@@ -1,8 +1,8 @@
-import {table, minifyRecords} from './utils/Airtable'
+import {socialLinks, minifyRecords} from './utils/SocialAirtable'
 export default async (req, res) => {
     try {
 
-        const records = await table.select({
+        const records = await socialLinks.select({
             view: "Grid view",
         }).firstPage();
         const minifiedRecords = minifyRecords(records);

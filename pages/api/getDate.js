@@ -1,8 +1,8 @@
-import {table, minifyRecords} from './utils/Airtable'
+import {dateTable, minifyRecords} from './utils/DateAirtable'
 export default async (req, res) => {
     try {
 
-        const records = await table.select({
+        const records = await dateTable.select({
             view: "Grid view",
         }).firstPage();
         const minifiedRecords = minifyRecords(records);
